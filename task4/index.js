@@ -1,5 +1,6 @@
-var abc = function (a, b) {
-    return Math.min(a, b);
+var min = function (a, b) {
+    if (a < b) return a;
+    else return b;
 };
 
-console.log(abc(0, 10));
+console.log(min(0, 10));
