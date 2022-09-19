@@ -2,7 +2,7 @@ function countBs(q, c) {
     let a = 0;
     for (m = 0; m < q.length; m++) {
         let b = q.charAt(m);
-        if (b == c) a++;
+        if (b === c) a++;
     }
     return a;
 }
